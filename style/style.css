@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src: url("../Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+.container{
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0;
+}
+
+.promo {
+    height: inherit;
+    background-image: url(./imag/Symbol.png), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+header {
+    margin-bottom: 261px;
+
+}
+header img {
+    margin-top: 50px;
+}
+
+.inline-block {
+    display: inline-block;
+    margin-top: 50px;    
+    float: right;
+}
+
+a,address {
+    display:inline-block;
+    text-decoration: none;
+    color: antiquewhite;
+    padding-bottom: 21px;
+}
+
+a {
+    padding-left: 14px;
+}
+
+address {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a {
+    font-family:'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.ua:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    width: 30px;
+    height: 5px;
+    display: inline-block;
+}
+
+.en {
+    background: #F0145A;
+    border-radius: 8px;
+    width: 40px;
+    height: 5px;
+}
+
+.block {
+    text-align: right;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.about-us:hover {
+    color: #F0145A;
+}
+
+.services:hover {
+    text-decoration: underline;
+}
+
+button  {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    opacity: 0.5;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin:0 auto ;
+    padding-top: 13px;
+}
+
+button:hover{
+    border-color: #F0145A;
+}
+
+button:hover path[stroke] {
+    stroke: #9b113d;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 323px;
+    color: #FFFFFF;
+    font-family:"Montserrat";
+    font-size: 38px;
+    line-height: 46.32px;
+}
+
+span {
+    display: inline-block;
+    width:6px;
+    height:6px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding-left: 6px;
+}
+
+.tel,.address {
+    padding-left: 6px;
+}
+
+.facebook {
+    background-image:url(./imag/Vector\ \(2\).png);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.facebook:hover {
+    background-image:url(./imag/Vector\ \(4\).png);
+}
+
+
+
+
+
+
+
